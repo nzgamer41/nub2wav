@@ -43,9 +43,9 @@ namespace nub2wav
                             bitrate = 44100;
                             Console.WriteLine("Bitrate is set to: " + bitrate);
                         }
-                        else if (bitRate32000.Contains(fileName))
+                        else if (bitRate28000.Contains(fileName))
                         {
-                            bitrate = 32000;
+                            bitrate = 28000;
                             Console.WriteLine("Bitrate is set to: " + bitrate);
                         }
                         else
